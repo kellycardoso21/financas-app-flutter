@@ -1,0 +1,35 @@
+name: flutter_financas
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ... outras dependências
+  provider: ^6.0.5
+  intl: ^0.20.0
+  fl_chart: ^0.67.0
+
+
+
+      # flutter_localizations deve usar o SDK.
+  flutter_localizations:
+    sdk: flutter
+
+
+  # Pacotes para banco de dados
+  sqflite: ^2.2.8+4
+  path: ^1.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
