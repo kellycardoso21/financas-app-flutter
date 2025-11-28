@@ -1,4 +1,4 @@
-📱 Finanças+ — Aplicativo de Controle Financeiro
+📱 Finanças++ — Aplicativo de Controle Financeiro
 
 Um aplicativo mobile simples e eficiente para gerenciar suas finanças pessoais.
 Acompanhe suas receitas, despesas, saldo e visualize gráficos mensais de forma clara e prática.
@@ -28,10 +28,13 @@ fl_chart – gráficos no app
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/tela01.png" width="250" />
-  <img src="screenshots/tela02.png" width="250" />
-  <img src="screenshots/tela03.png" width="250" />
-  <img src="screenshots/tela04.png" width="250" />
+  <img src="screenshots/tela01.png" width="250" />
+  <img src="screenshots/tela02.png" width="250" />
+</p>
+
+<p align="center">
+  <img src="screenshots/tela03.png" width="250" />
+  <img src="screenshots/tela04.png" width="250" />
 </p>
 
 
@@ -55,6 +58,7 @@ Kelly Kley Cardoso dos Santos
 GitHub: https://github.com/kellycardoso21
 
 E-mail: kellycardoso125@gmail.com
+
 
 
 
