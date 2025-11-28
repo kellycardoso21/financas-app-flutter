@@ -25,6 +25,16 @@ intl – formatação de datas e moeda
 Provider – gerenciamento de estado
 fl_chart – gráficos no app
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/tela01.png" width="250" />
+  <img src="screenshots/tela02.png" width="250" />
+  <img src="screenshots/tela03.png" width="250" />
+  <img src="screenshots/tela04.png" width="250" />
+</p>
+
+
 🚀 Instalação e Execução
 1️⃣ Clonar o repositório
 git clone [https://github.com/kellycardoso21/financas_plus.git](https://github.com/kellycardoso21/financas-app-flutter?tab=readme-ov-file)
@@ -36,8 +46,8 @@ flutter pub get
 3️⃣ Executar no emulador/dispositivo
 flutter run
 
-📃 Licença
 
+📃 Licença
 Este projeto está licenciado sob a MIT License.
 
 👩‍💻 Desenvolvedora
@@ -45,5 +55,6 @@ Kelly Kley Cardoso dos Santos
 GitHub: https://github.com/kellycardoso21
 
 E-mail: kellycardoso125@gmail.com
+
 
 
