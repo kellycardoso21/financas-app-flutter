@@ -27,7 +27,7 @@ fl_chart – gráficos no app
 
 🚀 Instalação e Execução
 1️⃣ Clonar o repositório
-git clone https://github.com/kellycardoso21/financas_plus.git
+git clone [https://github.com/kellycardoso21/financas_plus.git](https://github.com/kellycardoso21/financas-app-flutter?tab=readme-ov-file)
 cd financas_plus
 
 2️⃣ Instalar dependências
@@ -45,4 +45,5 @@ Kelly Kley Cardoso dos Santos
 GitHub: https://github.com/kellycardoso21
 
 E-mail: kellycardoso125@gmail.com
+
 
