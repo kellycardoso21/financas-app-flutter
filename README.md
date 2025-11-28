@@ -1,58 +1,48 @@
 📱 Finanças+ — Aplicativo de Controle Financeiro
 
-O Finanças+ é um aplicativo mobile desenvolvido em Flutter/Dart com o objetivo de oferecer ao usuário uma forma simples, rápida e eficiente de registrar receitas, despesas e acompanhar sua vida financeira por meio de resumos mensais e gráficos analíticos.
+Um aplicativo mobile simples e eficiente para gerenciar suas finanças pessoais.
+Acompanhe suas receitas, despesas, saldo e visualize gráficos mensais de forma clara e prática.
 
-🚀 Tecnologias Utilizadas
-Tecnologia/Pacote	Função
-Flutter/Dart	Framework principal para construção do aplicativo mobile.
-sqflite	Persistência local de dados (SQLite).
-fl_chart	Criação de gráficos de barras para análise visual.
-intl	Formatação de moeda, datas e localização pt_BR.
+✨ Funcionalidades
 
-📂 Arquitetura
-O projeto segue uma arquitetura simples e organizada:
-/lib
-  /screens     -> Telas do aplicativo
-  /models      -> Modelos de dados
-  /helpers     -> Classes utilitárias (ex: DBHelper)
+Registrar receitas e despesas
+Selecionar a data da transação
+Listagem completa das movimentações financeiras
+Cálculo automático de:
+Total de receitas
+Total de despesas
+Saldo mensal
+Tela de Resumo Mensal
+Gráfico dos últimos meses (entradas × saídas)
+Armazenamento local usando SQLite
+Interface moderna e intuitiva
 
-🧾 Modelo de Dados — TransactionModel
-Cada transação registrada no app segue esta estrutura:
-Campo	Tipo	Descrição
-id	int	Identificador único.
-title	String	Descrição da transação.
-amount	double	Valor da transação.
-type	String	Tipo: 'receita' ou 'despesa'.
-date	DateTime	Data da transação (indispensável para resumos e gráficos).
+🛠️ Tecnologias Utilizadas
 
-🗄️ Persistência de Dados
-A classe DBHelper gerencia todo o acesso ao SQLite:
-Criação do banco e tabela transactions
-Métodos CRUD:
-insertTransaction()
-getTransactions()
-updateTransaction()
-deleteTransaction()
-A coluna date TEXT armazena as datas em formato ISO8601.
+Flutter (Dart)
+sqflite – banco de dados local SQLite
+intl – formatação de datas e moeda
+Provider – gerenciamento de estado
+fl_chart – gráficos no app
 
-🧭 Funcionalidades do Aplicativo
-🔐 1. Tela de Login
-Login de demonstração usando:
-E-mail: teste@teste.com
-Senha: 1234
+🚀 Instalação e Execução
+1️⃣ Clonar o repositório
+git clone https://github.com/kellycardoso21/financas_plus.git
+cd financas_plus
 
-💰 2. Tela de Transações
-Cards com saldo e despesas do mês
-Lista mostrando somente o mês atual
-CRUD completo
-Modal com seletor de data
+2️⃣ Instalar dependências
+flutter pub get
 
-📊 3. Tela de Resumo
-Total de Entradas
-Total de Despesas
-Saldo do mês
-Métricas de gasto
+3️⃣ Executar no emulador/dispositivo
+flutter run
 
-📈 4. Tela de Gráficos
-Gráfico de despesas dos últimos 3 meses
-Sugestões de análise
+📃 Licença
+
+Este projeto está licenciado sob a MIT License.
+
+👩‍💻 Desenvolvedora
+Kelly Kley Cardoso dos Santos
+GitHub: https://github.com/kellycardoso21
+
+E-mail: kellycardoso125@gmail.com
+
